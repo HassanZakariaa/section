@@ -1,0 +1,31 @@
+ul{
+list-style-type: none;
+border: 1px solid lightblue;
+background-color:lightblue;
+overflow:hidden;
+padding: 20px;
+margin: 15px;
+
+}
+li {
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+a{
+text-decoration: lightcoral;
+
+color:brown;
+}
+li a{
+display: block;
+padding: 15px;
+}
+li a:hover{
+    background-color: cornflowerblue;
+}
+li a.active{
+    background-color:green;
+    color: white;
+}
